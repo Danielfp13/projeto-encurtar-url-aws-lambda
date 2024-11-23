@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "6d377c90-1b9e-4c32-8c15-4869ffd3939b",
+		"name": "serviço encurtar url",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7262595"
+	},
+	"item": [
+		{
+			"name": "criar url",
+			"item": [
+				{
+					"name": "gerar url encurtada",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"originalUrl\":\"https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2024/11/20/gallo-promete-santos-acelerando-para-2025-abre-portas-a-neymar-e-pede-calma-com-projeto-gabigol.ghtml\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://a7b19lj1g2.execute-api.us-east-1.amazonaws.com/create",
+							"protocol": "https",
+							"host": [
+								"a7b19lj1g2",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
