@@ -46,7 +46,7 @@ Este projeto é um encurtador de URL baseado em AWS, que utiliza duas funções 
 - **API Gateway**
   - Padroniza as URLs de acesso para as funções Lambda:
     - **POST** `/create` → Chama a Lambda de criação.
-    - **GET** `/redirect/{uuid}` → Chama a Lambda de redirecionamento.
+    - **GET** `/{uuid}` → Chama a Lambda de redirecionamento.
 
 ---
 
